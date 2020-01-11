@@ -1,0 +1,25 @@
+{
+  "name": "code-challenge-yelp-fusion-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dheerajsingh20aug/code-challenge-yelp-fusion-.git"
+  },
+  "keywords": [
+    "yelp-fusion"
+  ],
+  "author": "Dheeraj Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dheerajsingh20aug/code-challenge-yelp-fusion-/issues"
+  },
+  "homepage": "https://github.com/dheerajsingh20aug/code-challenge-yelp-fusion-#readme",
+  "dependencies": {
+    "axios": "^0.19.1"
+  }
+}
