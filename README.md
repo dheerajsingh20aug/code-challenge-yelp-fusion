@@ -29,10 +29,18 @@ Open up the `index.js` file and change your API Key from the [manage app page](h
 const apiKey = '<YOUR_API_KEY>';
 ```
 
-You may optionally update the search request url
+You may optionally update the search criteria in
 ```javascript
-const url = "https://api.yelp.com/v3/businesses/search?term='ice cream'&location=alpharetta&limit=5&sort_by=review_count";
-;
+function printBusiness() {
+	const filter = {
+		term: "ice cream",
+		location: "alpharetta",
+		limit: 5,
+		sort_by: "review_count"
+	}
+	const topIceCreamShops = await getTopBusinesses(filter);
+	console.log(JSON.stringify(topIceCreamShops, null, 4));
+}
 ```
 
 ## Usage
